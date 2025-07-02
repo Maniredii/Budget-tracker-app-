@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
             viewModel = ViewModelProvider(this, ViewModelProvider.AndroidViewModelFactory.getInstance(application))[BudgetViewModel::class.java]
             
             // Set Gemini API key
-            ApiConfig.setGeminiApiKey("AIzaSyCoYctWe26iI0wnYoCh2nGyK_J4ordu7SM")
+            ApiConfig.setGeminiApiKey("add your api key")
             
             setContent {
                 BudgetTheme {
